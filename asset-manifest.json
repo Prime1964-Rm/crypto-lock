@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crypto-lock/static/css/main.8ea9087d.chunk.css",
+    "main.js": "/crypto-lock/static/js/main.35aae6ba.chunk.js",
+    "main.js.map": "/crypto-lock/static/js/main.35aae6ba.chunk.js.map",
+    "runtime-main.js": "/crypto-lock/static/js/runtime-main.514ce1f5.js",
+    "runtime-main.js.map": "/crypto-lock/static/js/runtime-main.514ce1f5.js.map",
+    "static/js/2.63c16f27.chunk.js": "/crypto-lock/static/js/2.63c16f27.chunk.js",
+    "static/js/2.63c16f27.chunk.js.map": "/crypto-lock/static/js/2.63c16f27.chunk.js.map",
+    "static/js/3.f86ac319.chunk.js": "/crypto-lock/static/js/3.f86ac319.chunk.js",
+    "static/js/3.f86ac319.chunk.js.map": "/crypto-lock/static/js/3.f86ac319.chunk.js.map",
+    "index.html": "/crypto-lock/index.html",
+    "static/css/main.8ea9087d.chunk.css.map": "/crypto-lock/static/css/main.8ea9087d.chunk.css.map",
+    "static/js/2.63c16f27.chunk.js.LICENSE.txt": "/crypto-lock/static/js/2.63c16f27.chunk.js.LICENSE.txt",
+    "static/media/bitcoin.04335134.png": "/crypto-lock/static/media/bitcoin.04335134.png",
+    "static/media/logo.6ce24c58.svg": "/crypto-lock/static/media/logo.6ce24c58.svg",
+    "static/media/newsletter.964aa7fe.jpg": "/crypto-lock/static/media/newsletter.964aa7fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.514ce1f5.js",
+    "static/js/2.63c16f27.chunk.js",
+    "static/css/main.8ea9087d.chunk.css",
+    "static/js/main.35aae6ba.chunk.js"
+  ]
+}
