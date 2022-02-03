@@ -8,8 +8,8 @@ const Routes = () => {
   return (
     <>
       <ReactRoutes>
-        <Route path="/" element={<HomeContainer />} />
-        <Route path="/exchange"   element={<DashboardContainer />} />
+        <Route exact path="/" element={<HomeContainer />} />
+        {/* <Route path="/exchange"   element={<DashboardContainer />} /> */}
       </ReactRoutes>
       {/* <HomeContainer /> */}
       {/* <TestAnimation/> */}
