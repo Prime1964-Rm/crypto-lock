@@ -1,0 +1,42 @@
+@import '../../styles/values';
+.c-navbar{
+    z-index: 5;
+    position: sticky;
+    top: 0;
+    height: 64px;
+    background-image: linear-gradient(to right, $primary , $secondary);
+width: 100%;
+display: flex;
+align-items: center;
+// border-bottom: thin solid rgba(255, 255, 255, 0.473);
+.c-nav-logo{
+color: #FFFFFF;
+padding: 15px 32px;background-color: transparent;
+}
+}
+
+.c-nav-group{
+    color: $minor;
+    font-size: smaller;
+    display: flex;
+    li{
+        list-style: none;
+        padding: 15px 32px;
+        cursor: pointer;
+    }
+}
+
+.c-nav-btn-group{
+
+margin-left: auto;
+width: 20%;
+display: flex;
+justify-content: space-around;
+}
+
+.c-nav-menu{
+    background-color: transparent;
+    color: $major;
+    border: none;
+    outline: none;
+}

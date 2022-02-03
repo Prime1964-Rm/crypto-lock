@@ -1,0 +1,127 @@
+@import "../../styles/values";
+
+.home-container {
+  height: 100%;
+  display: block;
+  justify-content: center;
+  background-color: $secondary;
+  .section-1 {
+    height: 100vh;
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .caption-container {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      height: 70%;
+      display: flex;
+      .caption {
+        * {
+          margin: 0.8rem 0;
+        }
+        h1 {
+          color: $major;
+          font-size: xxx-large;
+          font-weight: 500;
+        }
+        h6 {
+          color: $minor;
+          font-size: small;
+          font-weight: 300;
+        }
+        .scroll-arrow-down {
+          border: thin solid $minor;
+          width: fit-content;
+          height: fit-content;
+          padding: 5px 20px;
+          border-radius: 3rem;
+          margin-top: 3rem;
+          i {
+            color: $light;
+          }
+        }
+      }
+    }
+    div:nth-child(2n) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-right: auto;
+      height: 70%;
+      width: 40%;
+      div {
+        width: 100%;
+      }
+    }
+  }
+
+  .section-2 {
+    height: 100%;
+    padding-top: 2rem;
+    color: #fff;
+    .crypto-highlights {
+      padding-top: 5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-bottom: 10rem;
+      background-color: black;
+      h1 {
+        color: $major;
+        font-size: xx-large;
+        font-weight: 500;
+        left: auto;
+        text-align: center;
+      }
+      p {
+        margin-bottom: 2rem;
+        color: $minor;
+        text-align: center;
+      }
+    }
+    .highlights-grp {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3rem;
+    }
+    .get-started {
+      background-color: $primary;
+      padding-top: 30vh;
+      padding-bottom: 20vh;
+      h1 {
+        text-align: center;
+        
+        font-weight: 500;
+      }
+      p {
+        color: $minor;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .get-started-tab-grp {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        hr {
+          color: #fff;
+          width: auto;
+          min-width: 100px;
+          height: min-content;
+          background-color: $minor;
+          border: 1px solid $minor;
+          // fill: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../../../styles/values';
+
+.crypto-card{
+    background-color: #23262f;
+    min-width: 250px;
+    width: fit-content;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-weight: 400;
+        .crypto-card-header-section{
+            width: 100%;
+            justify-content: space-between;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            img{
+                position: relative;
+                width: 6%;
+                min-width: 50px;
+                height: auto;
+                height: 50px;
+            }
+
+        }
+        .cryto-card-info-block{
+           padding: 1rem;
+        }
+}
